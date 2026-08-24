@@ -325,7 +325,7 @@ MSG msg = {};
       // Atualiza o Título da Janela a cada 1 segundo com a média de FPS
       if (g_fpsTimeAccumulator >= 1.0f) {
         g_currentFPS = static_cast<float>(g_fpsFrameCount) / g_fpsTimeAccumulator;
-        std::wstring windowTitle = L"QMX Engine v0.1 | FPS: " + std::to_wstring(static_cast<int>(g_currentFPS)) + L"| DeltaTime: " + std::to_wstring(g_deltaTime * 100.0f).substr(0, 5) + L" ms";
+        std::wstring windowTitle = L"QMX Engine v0.1 | FPS: " + std::to_wstring(static_cast<int>(g_currentFPS)) + L" | DeltaTime: " + std::to_wstring(g_deltaTime * 100.0f).substr(0, 5) + L" ms";
         SetWindowTextW(hwnd, windowTitle.c_str());
         g_fpsFrameCount = 0;
         g_fpsTimeAccumulator = 0.0f;
