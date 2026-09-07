@@ -40,7 +40,7 @@
 * **Host OS:** Windows 11 Home 24H2
 * **Editor:** Visual Studio Code
 * **Version Control:** Git & GitHub Desktop & GitHub.com
-* **ENTRY:** Discord Server. Name of Server: Programming
+* **ENTRY:** Discord Server. Name of Server: Devs Studio
 * **Server-Discord:** https://discord.gg/88hUjybuY5
 * **Limit-Collaborators-In-Server:** 5-10 Collaborators
 
